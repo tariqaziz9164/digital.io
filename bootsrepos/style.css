@@ -1,0 +1,213 @@
+
+
+/* @keyframes grow {
+    from {
+        font-size: 20px;
+
+    }
+    to{
+        font-size: 60px;
+    }
+}
+
+.myh1{
+     animation-name: grow;
+     animation-duration: 3s;
+     animation-fill-mode: forwards;
+} */
+.nav{
+    margin: 1rem;
+}
+.myimg{
+    margin-top: 1rem;
+    
+}
+.myh1{
+    
+    font-size: 50px;
+    margin-top: 1rem;
+    text-shadow: 20px;
+    font-style: italic;
+    color: rgb(185, 185, 185);
+    text-transform: uppercase;
+    text-shadow: 2px,2px,2px,#222;
+    border-radius: 1rem;
+    
+}
+
+.myh2{
+    
+    font-size: 50px;
+    margin-top: 1rem;
+    text-shadow: 20px;
+    font-style: italic;
+    color: rgb(53, 53, 53);
+    text-transform: uppercase;
+    text-shadow: 8px,8px,8px,#222;
+    border-radius: 1rem;
+    
+}
+
+
+.heading2{
+    margin-top: 2rem;
+}
+
+.myul{
+    font-size: 30px;
+    margin: 1rem;
+    display: flex;
+}
+.mycontainer
+{ 
+    text-shadow: slategray;
+    margin-top: 2rem;
+    width: 60%;
+    height: auto;
+    background-color: rgba(141, 141, 141, 0.507);
+    color: white;
+
+    
+}
+.ul{
+    font-weight: 200;
+    font-size: x-large;
+    margin-top: 2rem;
+}
+/*.myimg1{
+    
+    margin: 1rem;
+    
+}*/
+h1{
+    text-align: center;
+    color: rgb(36, 34, 34);
+}
+
+.sec2{
+    margin-top: 1rem;
+    width: 30%;
+    background-color: rgb(47, 15, 231);
+}
+.sec3{
+    height: 5rem;
+    margin-top: 1rem;
+    width: 30%;
+    background-color: rgb(15, 235, 44);
+}
+
+
+.sec1{
+    margin-top: 1rem;
+    width: 30%;
+    background-color: rgb(235, 15, 52);
+}
+
+.mycont2{
+    margin-top: 2rem;
+    
+}
+li{
+    margin: 1rem;
+    font-weight: bold;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) 
+{
+ .myh1 , .myh2
+    {
+      font-size: 30px;
+      
+    }
+     
+ .navbarmain
+    {
+       height: 70px;
+    }
+ .panel-footer
+    {
+    
+      text-align: center;
+    
+    }
+
+
+}
+
+
+
+@media only screen and (min-width:1200px)
+{
+    .mycarousel{
+    height: 80%;
+    }
+    .rules{
+        width: 200px;
+    }
+
+  
+}
+
+
+.bottom{
+    width: 80%;
+    background-color: grey;
+    
+}
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: rgb(165, 165, 165);
+    border-top: 0;
+
+}
+.panel-footer div.row {
+    margin-bottom: 35px;
+}
+#hours, #address {
+    line-height: 2;
+
+}
+#hours > span, #address > span {
+    font-size: 1.3rem;
+}
+#address{
+    color: rgb(77, 77, 77);
+    font-size: .8em;
+    line-height: 1.8;
+}
+#testimonials p:nth-child(2){
+    margin-top: 25px;
+}
+#testimonials {
+    font-style: italic;
+}
+.category-title{
+    position: relative;
+    
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: auto auto 15px;
+}
+.category-title span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
+.category:hover{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+#main-contant-header + div{
+    margin-bottom: 50px;
+}
