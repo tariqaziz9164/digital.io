@@ -1,176 +1,351 @@
 <!DOCTYPE html>
-    <html lang="en">
+<html lang="en">
 
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-        <!--Jwuery-->
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+<!--bootsrap icon-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
 
+    <!--Jwuery-->
 
-        <!-- my style style.css-->
-
-        <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
-        <title>MyWork</title>
-    </head>
 
-    <body>
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-primary rounded">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="index.html"><img src="./images/logo.png"> </a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
+
+    <!-- my style style.css-->
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    <title>MyWork</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary rounded">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="./images/logo.png"> </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse bg-primary" id="navbarSupportedContent">
+                </button>
+                <div class="collapse navbar-collapse bg-primary" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          My Work
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="product_design.html">Product Design</a></li>
-                          <li><a class="dropdown-item" href="Apps_design.html">App Design</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Explore More</a></li>
-                        </ul>
-                      </li>
-        
-                      <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                      </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                My Work
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="product_design.html">Product Design</a></li>
+                                <li><a class="dropdown-item" href="Apps_design.html">App Design</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Explore More</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
                     </ul>
                     <form class="d-flex">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success btn-light" type="submit">Search</button>
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success btn-light" type="submit">Search</button>
                     </form>
-                  </div>
                 </div>
-              </nav>
-        </header>
-
-        <div id="main-content" class="container">
-            <h2 id="main-contant-header" class="text-center">
-                DigitalOnline A creator of magical interfeces
-            </h2>
-            <div class="text-center shadow rounded p-2">
-
-                User interfaces play a crucial role in business.
-                This is the first step that user interact with,
-                A single wrong turn change distenation.
-                The first call to action is a millioner point of a website.
             </div>
+        </nav>
+    </header>
 
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <a href="#">
-                        <div class="category-title">
-                            <img width="200" height="200" src="./images/card1.jpg" alt="image" alt="img">
-                            <span>Landing Pages</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <a href="#">
-                        <div class="category-title">
-                            <img width="200" height="200" src="./images/card1.jpg" alt="image" alt="img">
-                            <span>Front Pages</span>
-                        </div>
-                    </a>
-                </div>
+    <div id="main-content" class="container">
+        <h2 id="main-contant-header" class="text-center">
+            DigitalOnline A creator of magical interfeces
+        </h2>
+        <div class="text-center shadow rounded p-2">
 
-
-                <div class="col-md-4 col-sm-6">
-                    <a href="#">
-                        <div class="category-title">
-                            <img width="200" height="200" src="./images/card1.jpg" alt="image" alt="img">
-                            <span>Front Pages</span>
-                        </div>
-                    </a>
-                </div>
-
-
-
-
-                <div class="col-md-4 col-sm-6">
-                    <a href="#">
-                        <div class="category-title">
-                            <img width="200" height="200" src="./images/card1.jpg" alt="image" alt="img">
-                            <span>Menue Designs</span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <a href="#">
-                        <div class="category-title">
-                            <img width="200" height="200" src="./images/card1.jpg" alt="image" alt="img">
-                            <span>Markups</span>
-                        </div>
-                    </a>
-                </div>
-
-            </div>
+            User interfaces play a crucial role in business.
+            This is the first step that user interact with,
+            A single wrong turn change distenation.
+            The first call to action is a millioner point of a website.
         </div>
 
-        <footer class="container panel-footer">
-            <div class="container">
-                <div class="row">
-                    <section id="hours" class="col-sm-4">
-                        <span>Wrking:</span><br>
-                        place order 7/24 <br>
-                        we will back to you as soon as possible
-                        <hr class="visible-xs">
+        <div class="container  mt-3 rounded">
+
+            <div class="row">
+                <div class="container col-sm-6">
+                    <h1 class="shadow my-2 p-2 rounded">Dsign fundamentals</h1>
+                    <div class="container-fluid">
+                        <h3>
+                            Typography
+                        </h3>
+                        <div>
+                            <h6 class="fontstyle1">Font Style1</h6>
+                            <h6 class="fontstyle2">Font Style2</h6>
+                            <h6 class="fontstyle3">Font Style3</h6>
+                        </div>
+                        <hr>
 
 
-                    </section>
-                    <section id="address" class="col-sm-4">
-                        <span>Address:</span><br>
-                        your physical addres if you offerbr <br>
-                        <hr class="visible-xs">
+                        <h6>Text Weight</h6>
+                        <hr>
+                        <h1>Text size</h1>
+                        <h2>Text size</h2>
+                        <h3>Text size</h3>
+                        <h4>Text size</h4>
+                        <h5>Text size</h5>
+                        <h6>Text size</h6>
+                        <p class="p1">Text size</p>
+                        <p class="p2">Text size</p>
+                        <p class="p3">Text size</p>
+                        <p class="p4">Text size</p>
+                        <p class="p5">Text size</p>
 
+                    </div>
+                    <div class="col-sm my-4">
+                        <h2>
+                            Brand Colors
+                        </h2>
+                        <div class="row">
 
-                    </section>
-                    <section id="testimonials" class="col-sm-4">
-                        <p>
-                            Lorem ipsum, dolor sit amet consectetur <br> adipisicing elit. Exercit
-                        </p>
+                            <div class="col1 col shadow-lg p-3 mb-5  rounded">
 
+                            </div>
 
-                    </section>
+                            <div class="col2 col shadow-lg p-3 mb-5 rounded">
+
+                            </div>
+
+                            <div class="col3 col shadow-lg p-3 mb-5 rounded">
+
+                            </div>
+
+                            <div class="col4 col shadow-lg p-3 mb-5 rounded">
+
+                            </div>
+                            <div class="contaner">
+                                <label for="exampleColorInput" class="form-label">Choose your color</label>
+                                <input type="color" class="form-control form-control-color" id="exampleColorInput"
+                                    value="#563d7c" title="Choose your color">
+                            </div>
+                        </div>
+                    </div>
+
+                    <br>
                 </div>
-                <div class="text-center">&copy; Copyright for your business</div>
+
+
+
+                <!-- Force next columns to break to new line at md breakpoint and up -->
+
+
             </div>
-        </footer>
 
-        <!-- Optional JavaScript; choose one of the two! -->
+        </div>
+        <div class="container">
+            <h2>Checkout form</h2>
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Address 2</label>
+                    <input type="text" class="form-control" id="inputAddress2"
+                        placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                    <label for="inputState" class="form-label">State</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <label for="inputZip" class="form-label">Zip</label>
+                    <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Check me out
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                </div>
+            </form>
+            <hr>
+            <h2>Check Box</h2>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                <label class="form-check-label" for="flexCheckIndeterminate">
+                    Indeterminate checkbox
+                </label>
+            </div>
 
-        <!-- Option 1: Bootstrap Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-            crossorigin="anonymous"></script>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                <label class="form-check-label" for="flexCheckIndeterminate">
+                    Indeterminate checkbox
+                </label>
+            </div>
+        </div>
+            <br>
+            <hr>
+            <div class="container">
+                <h2>
+                    Range Selector
+                </h2>
+                <label for="customRange1" class="form-label"></label>
+                <input type="range" class="form-range" id="customRange1">
+            </div>
+            <hr>
+            <div class="container">
+                <h2>Validation form</h2>
+                <form class="row g-3">
+                    <div class="col-md-4">
+                        <label for="validationServer01" class="form-label">First name</label>
+                        <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="validationServer02" class="form-label">Last name</label>
+                        <input type="text" class="form-control is-valid" id="validationServer02" value="Otto" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="validationServerUsername" class="form-label">Username</label>
+                        <div class="input-group has-validation">
+                            <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                            <input type="text" class="form-control is-invalid" id="validationServerUsername"
+                                aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                            <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                                Please choose a username.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="validationServer03" class="form-label">City</label>
+                        <input type="text" class="form-control is-invalid" id="validationServer03"
+                            aria-describedby="validationServer03Feedback" required>
+                        <div id="validationServer03Feedback" class="invalid-feedback">
+                            Please provide a valid city.
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="validationServer04" class="form-label">State</label>
+                        <select class="form-select is-invalid" id="validationServer04"
+                            aria-describedby="validationServer04Feedback" required>
+                            <option selected disabled value="">Choose...</option>
+                            <option>...</option>
+                        </select>
+                        <div id="validationServer04Feedback" class="invalid-feedback">
+                            Please select a valid state.
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="validationServer05" class="form-label">Zip</label>
+                        <input type="text" class="form-control is-invalid" id="validationServer05"
+                            aria-describedby="validationServer05Feedback" required>
+                        <div id="validationServer05Feedback" class="invalid-feedback">
+                            Please provide a valid zip.
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3"
+                                aria-describedby="invalidCheck3Feedback" required>
+                            <label class="form-check-label" for="invalidCheck3">
+                                Agree to terms and conditions
+                            </label>
+                            <div id="invalidCheck3Feedback" class="invalid-feedback">
+                                You must agree before submitting.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-primary" type="submit">Submit form</button>
+                    </div>
+                </form>
+            </div>
+    </div>
+            <br>
 
-        <!-- Option 2: Separate Popper and Bootstrap JS -->
-        <!--
+            <footer class="container panel-footer">
+                <div class="container">
+                    <div class="row">
+                        <section id="hours" class="col-sm-4">
+                            <span>Wrking:</span><br>
+                            place order 7/24 <br>
+                            we will back to you as soon as possible
+                            <hr class="visible-xs">
+
+
+                        </section>
+                        <section id="address" class="col-sm-4">
+                            <span>Address:</span><br>
+                            your physical addres if you offerbr <br>
+                            <hr class="visible-xs">
+
+
+                        </section>
+                        <section id="testimonials" class="col-sm-4">
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur <br> adipisicing elit. Exercit
+                            </p>
+
+
+                        </section>
+                    </div>
+                    <div class="text-center">&copy; Copyright for your business</div>
+                </div>
+            </footer>
+
+            <!-- Optional JavaScript; choose one of the two! -->
+
+            <!-- Option 1: Bootstrap Bundle with Popper -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                crossorigin="anonymous"></script>
+
+            <!-- Option 2: Separate Popper and Bootstrap JS -->
+            <!--
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
       -->
-    </body>
+</body>
 
-    </html>
+</html>
