@@ -18,6 +18,8 @@
 .nav{
     margin: 1rem;
 }
+
+
 .myimg{
     margin-top: 1rem;
     
@@ -103,10 +105,7 @@ h1{
     background-color: rgb(235, 15, 52);
 }
 
-.mycont2{
-    margin-top: 2rem;
-    
-}
+
 li{
     margin: 1rem;
     font-weight: bold;
@@ -140,9 +139,7 @@ li{
 
 @media only screen and (min-width:1200px)
 {
-    .mycarousel{
-    height: 80%;
-    }
+    
     .rules{
         width: 200px;
     }
@@ -175,7 +172,7 @@ li{
     font-size: 1.3rem;
 }
 #address{
-    color: rgb(77, 77, 77);
+    
     font-size: .8em;
     line-height: 1.8;
 }
@@ -186,14 +183,13 @@ li{
     font-style: italic;
 }
 .category-title{
-    position: relative;
     
-    overflow: hidden;
-    width: 200px;
-    height: 200px;
-    margin: auto auto 15px;
+    
+
+    
+    
 }
-.category-title span{
+/*.category-title span{
     position: absolute;
     bottom: 0;
     right: 0;
@@ -204,10 +200,72 @@ li{
     background-color: #000;
     color: #fff;
     opacity: .8;
-}
+}*/
 .category:hover{
     box-shadow: 0 1px 5px 1px #cccccc;
 }
 #main-contant-header + div{
     margin-bottom: 50px;
 }
+
+.myApp{
+    background-color: #222;
+    width: 70%;
+    height: 500px;
+     
+     mask-position: center;
+    
+
+}
+.typogaphy{
+    padding: 10px;
+    margin: 10px;
+    color: #cccccc;
+    width: 80%;
+    height: auto;
+    background-color: #222;
+}
+.p1{
+    font-size: large;
+}
+.p2{
+    font-size: medium;
+}
+.p3{
+    font-size: small;
+}
+.p4{
+    font-size: smaller;
+}
+.p5{
+    font-size: x-small;
+}
+.fontstyle1{
+    font-style: italic;
+}
+
+.fontstyle2{
+    font-style: oblique;
+}
+.fontstyle3{
+    font-style: initial;
+}
+
+.col1{
+    background-color: lightslategray;
+}
+
+.col2{
+    background-color: rgb(202, 35, 35);
+}
+.col3{
+    background-color: mediumorchid;
+}
+
+.col4{
+    background-color: rgb(52, 175, 41);
+}
+/*.col1, .col2, .col3, .col4{
+    height: 50px;
+    margin: 10px;
+}*/
