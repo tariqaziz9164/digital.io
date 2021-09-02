@@ -137,14 +137,21 @@ li{
 
 
 
-@media only screen and (min-width:1200px)
+@media only screen and (min-width:769px)
 {
     
     .rules{
         width: 200px;
     }
-
-  
+.product-col1{
+    margin-top: 100px;
+}
+  .col1{
+      margin-top: 100px;
+  }
+  col02{
+      margin-top: 20rem;
+  }
 }
 
 
@@ -182,13 +189,7 @@ li{
 #testimonials {
     font-style: italic;
 }
-.category-title{
-    
-    
 
-    
-    
-}
 /*.category-title span{
     position: absolute;
     bottom: 0;
