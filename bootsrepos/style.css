@@ -14,16 +14,12 @@
      animation-name: grow;
      animation-duration: 3s;
      animation-fill-mode: forwards;
-} */
-.nav{
-    margin: 1rem;
-}
+} 
+*/
 
 
-.myimg{
-    margin-top: 1rem;
-    
-}
+
+
 .myh1{
     
     font-size: 50px;
@@ -51,15 +47,13 @@
 }
 
 
-.heading2{
-    margin-top: 2rem;
-}
 
-.myul{
+
+/*  .myul{
     font-size: 30px;
     margin: 1rem;
     display: flex;
-}
+} */
 .mycontainer
 { 
     text-shadow: slategray;
@@ -71,7 +65,7 @@
 
     
 }
-.ul{
+ /* .ul{
     font-weight: 200;
     font-size: x-large;
     margin-top: 2rem;
@@ -87,7 +81,7 @@ h1, h2{
     font-family: sans-serif,arial;
 }
 
-.sec2{
+/*  .sec2{
     margin-top: 1rem;
     width: 30%;
     background-color: rgb(47, 15, 231);
@@ -105,7 +99,7 @@ h1, h2{
     width: 30%;
     background-color: rgb(235, 15, 52);
 }
-
+*/
 
 li{
     margin: 1rem;
@@ -113,7 +107,7 @@ li{
 }
 
 
-/* Extra small devices (phones, 600px and down) */
+/* Extra small devices (phones, 768px and down) */
 @media only screen and (max-width: 768px) 
 {
  .myh1 , .myh2
@@ -144,19 +138,19 @@ li{
     .rules{
         width: 200px;
     }
-.product-col1{
-    margin-top: 100px;
-}
-  .col1{
+   .product-col1{
+       margin-top: 100px;
+       }
+   .col1{
       margin-top: 100px;
-  }
-  col02{
+   }
+   col02{
       margin-top: 20rem;
-  }
+   }
 }
 
 
-.bottom{
+ /* .bottom{
     width: 80%;
     background-color: grey;
     
@@ -189,7 +183,7 @@ li{
 }
 #testimonials {
     font-style: italic;
-}
+} */
 
 /*.category-title span{
     position: absolute;
@@ -203,21 +197,20 @@ li{
     color: #fff;
     opacity: .8;
 }*/
-.category:hover{
+/* .category:hover{
     box-shadow: 0 1px 5px 1px #cccccc;
 }
 
 
-.myApp{
+/* .myApp{
     background-color: #222;
     width: 70%;
     height: 500px;
      
      mask-position: center;
-    
+    }
 
-}
-.typogaphy{
+/* .typogaphy{
     padding: 10px;
     margin: 10px;
     color: #cccccc;
@@ -225,7 +218,7 @@ li{
     height: auto;
     background-color: #222;
 }
-.p1{
+ /* .p1{
     font-size: large;
 }
 .p2{
@@ -250,8 +243,8 @@ li{
 .fontstyle3{
     font-style: initial;
 }
-
-.col1{
+*/
+ .col1{
     background-color: lightslategray;
 }
 
