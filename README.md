@@ -1,6 +1,6 @@
 # digital.io
 It is a story of an electronics engineer who want to explore the electronics from both saids,
-one is harware and oher is software.
+one is harware and other is software.
 As i from pakistan there is no such institutions who provide embeded systems and micocontroller parogramming.
 Be for as 4G is not in pakistan it is imposible to gain the knolege as to days life.The speed of media and the development of modern cell phones change the situation rapidlly.
 in 2001 i degust of c parogramming languege whic is the only bridge between high and low level parogramming.
