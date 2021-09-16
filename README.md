@@ -17,6 +17,6 @@ I learning from harvard CS50 course and linkdin courses about phthon.
 To day i just offer bootsrap resposnsive web sit Mobile first.
 
 
-This is about web and graphics design and development.
+
 
 
