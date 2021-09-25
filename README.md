@@ -1,4 +1,5 @@
 # digital.io
+A....
 It is a story of an electronics engineer who want to explore the electronics from both saids,
 one is harware and other is software.
 As i from pakistan there is no such institutions who provide embeded systems and micocontroller parogramming.
@@ -13,10 +14,11 @@ the web development and a controll algoritham for an embeded system are deffrent
 I just to learn web development and to make webs for other in a freelance market places.
 As today we have a number of oppertunities in digital products and serveces but a right tool for a perfect work.
 I learning from harvard CS50 course and linkdin courses about phthon.
-
 To day i just offer bootsrap resposnsive web sit Mobile first.
 
-
-
-
-
+B....
+The other hand is a story of digital products.
+Generaly a phical product have valume and transpotation.
+Digital product is so simple for transpotaion and dealing.
+Web development demand is at saturation point due to COVID19 because every business need an online presence and dealing.
+After bootstrap liberary now i statr working on javaScript and react.
